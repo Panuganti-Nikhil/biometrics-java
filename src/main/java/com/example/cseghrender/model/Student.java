@@ -21,8 +21,7 @@ public class Student {
 
     private Integer attendance = 0;
 
-    @Lob
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String faceData;
 
     public Student() {}

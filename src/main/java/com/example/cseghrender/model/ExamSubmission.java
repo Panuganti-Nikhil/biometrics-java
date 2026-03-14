@@ -24,7 +24,7 @@ public class ExamSubmission {
     private String status = "in_progress";
 
     // JSON object: { "1": "answer1", "2": "code answer", ... }
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String answers;
 
     private Integer score;
